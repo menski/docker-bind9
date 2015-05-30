@@ -1,0 +1,8 @@
+bind:
+  build: .
+  volumes:
+    - named.conf.local:/etc/bind/named.conf.local
+    - db.my.domain.com:/etc/bind/db.my.domain.com
+    - db.0.168.192:/etc/bind/db.0.168.192
+  ports:
+    - "53:53/udp"

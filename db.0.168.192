@@ -1,0 +1,13 @@
+;; db.0.168.192
+;;
+$TTL 2D
+@       IN      SOA     my.domain.com. my.domain.com. (
+                                2015053001      ; Serial
+                                        8H      ; Refresh
+                                        2H      ; Retry
+                                        4W      ; Expire
+                                        2D )    ; TTL Negative Cache
+
+@       IN      NS      my.domain.com.
+
+10      IN      PTR     my.domain.com.
